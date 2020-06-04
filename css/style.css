@@ -27,8 +27,12 @@ a{
 }
 
 .header{
-    background:black;
+    /* background:black; */
     padding: 40px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 .main-header-nav{
@@ -46,3 +50,22 @@ a{
     color: rgba(255, 255, 255, 0.8);
     margin-left: auto;
 }
+
+.inner {
+    height: 100vh;
+    background: linear-gradient(89.79deg, #23196F 0.13%, #180D5B 99.88%);
+    padding-top: 106px;
+}
+
+.inner-call-to-action{
+    max-width: 545px;
+    
+}
+
+.call-action-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffff;
+    line-height: 1,29px;
+}
+
