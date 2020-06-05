@@ -12,6 +12,17 @@ a{
     color: inherit;
 }
 
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 .d-flex{
     display: flex;
 }
@@ -20,10 +31,27 @@ a{
     align-items: center;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .container {
     max-width: 1114px;
     padding: 0 15px;
     margin: auto;
+}
+
+.btn{
+    font-family: 'PT Sans' sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.333;
+    padding: 16px 30px;
+}
+
+.btn-default{
+    background-color: #fff;
+    box-shadow: 0px 4px 20px #0F064C;
 }
 
 .header{
@@ -67,5 +95,35 @@ a{
     font-weight: bold;
     color: #ffff;
     line-height: 1,29px;
+    margin-top: 55px;
 }
+
+.call-to-action-desq {
+    font-size: 18px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    max-width: 390px;
+    margin-bottom: 55px;
+}
+
+.call-to-action-desq >span{
+    color:#36a7b9 ;
+    font-weight: 700;
+}
+
+.test-youre-email{
+    display: inline-block;
+
+}
+
+.mail-not-required{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+.mail-not-required >span {
+    margin-left: 15px;
+}
+
 
